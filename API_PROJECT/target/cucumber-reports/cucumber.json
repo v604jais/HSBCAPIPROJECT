@@ -1,0 +1,344 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Latest Rate API Status Code Verification",
+        "description": "",
+        "id": "rate-api-validation;latest-rate-api-status-code-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 122273855,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Rates API for Latest Foreign Exchange rates",
+            "match": {
+              "location": "testStepDef.rates_API_for_Latest_Foreign_Exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3010811675,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "API is available",
+            "match": {
+              "location": "testStepDef.api_is_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3149795,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "An automated test suite should run which will assert the success status of the response 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 88
+                }
+              ],
+              "location": "testStepDef.an_automated_test_suite_should_run_which_will_assert_the_success_status_of_the_response(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@test1"
+          }
+        ]
+      }
+    ],
+    "name": "Rate API Validation",
+    "description": "       I want to get latest rate data",
+    "id": "rate-api-validation",
+    "keyword": "Feature",
+    "uri": "scenario1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@pushkar1"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Latest Rate API Response Verifcation",
+        "description": "",
+        "id": "rate-api-response-validation;latest-rate-api-response-verifcation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 114343,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Rates API for Latest Foreign Exchange rates",
+            "match": {
+              "location": "testStepDef.rates_API_for_Latest_Foreign_Exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 476568600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "API is available",
+            "match": {
+              "location": "testStepDef.api_is_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 574003205,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "An automated test suite should run which will assert the response Body",
+            "match": {
+              "location": "test2StepDef.an_automated_test_suite_should_run_which_will_assert_the_response_Body()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@test2"
+          }
+        ]
+      }
+    ],
+    "name": "Rate API Response Validation",
+    "description": "       I want to get latest rate data",
+    "id": "rate-api-response-validation",
+    "keyword": "Feature",
+    "uri": "scenario2.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@pushkar"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Latest Rate Incorrect API Response Verification",
+        "description": "",
+        "id": "rate-api-validation-for-incorrect-url;latest-rate-incorrect-api-response-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 104070,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Rates API for Latest Foreign Exchange rates",
+            "match": {
+              "location": "testStepDef.rates_API_for_Latest_Foreign_Exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 720722809,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "An incorrect or incomplete url is provided",
+            "match": {
+              "location": "test3StepDef.an_incorrect_or_incomplete_url_is_provided()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 310424,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Test case should assert the correct response supplied by the call 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 66
+                }
+              ],
+              "location": "test3StepDef.test_case_should_assert_the_correct_response_supplied_by_the_call(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@test3"
+          }
+        ]
+      }
+    ],
+    "name": "Rate API Validation for incorrect url",
+    "description": "",
+    "id": "rate-api-validation-for-incorrect-url",
+    "keyword": "Feature",
+    "uri": "scenario3.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@pushkar3"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Rates API Specific Date Status Verification",
+        "description": "",
+        "id": "rate-api-validation-for-specific-date;rates-api-specific-date-status-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 467459118,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Rates API for date Foreign Exchange rates",
+            "match": {
+              "location": "test4StepDef.rates_api_for_date_foreign_exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 289431,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Test case assert the correct response code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 43
+                }
+              ],
+              "location": "test4StepDef.test_case_assert_the_correct_response_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@test4"
+          }
+        ]
+      }
+    ],
+    "name": "Rate API Validation for Specific Date",
+    "description": "",
+    "id": "rate-api-validation-for-specific-date",
+    "keyword": "Feature",
+    "uri": "scenario4.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@pushkar4"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Rates API Specific Date Response Verification",
+        "description": "",
+        "id": "rate-api-response-validation-for-specific-date;rates-api-specific-date-response-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 466405911,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Rates API for date Foreign Exchange rates",
+            "match": {
+              "location": "test4StepDef.rates_api_for_date_foreign_exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36551824,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "An automated test suite should run which will assert the response",
+            "match": {
+              "location": "test5StepsDef.an_automated_test_suite_should_run_which_will_assert_response()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Rate API Response Validation for Specific Date",
+    "description": "",
+    "id": "rate-api-response-validation-for-specific-date",
+    "keyword": "Feature",
+    "uri": "scenario5.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@pushkar5"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "name": "Rate API Validation",
+    "description": "       I want to get future rate data",
+    "id": "rate-api-validation",
+    "keyword": "Feature",
+    "uri": "scenario6.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@pushkar6"
+      }
+    ]
+  }
+]
